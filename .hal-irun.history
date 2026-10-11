@@ -1,0 +1,6 @@
+s1(11Oct2026:00:50:23):  irun -s +gui +linedebug +access+rwc -q /home/vlsi/Desktop/hackathon/mac.v 
+s2(11Oct2026:00:52:00):  irun -s +gui +linedebug +access+rwc -q /home/vlsi/Desktop/hackathon/mac.v 
+s3(11Oct2026:00:53:53):  irun -s +gui +linedebug +access+rwc -q /home/vlsi/Desktop/hackathon/tb_mac.v 
+s4(11Oct2026:00:54:40):  irun -s +gui +linedebug +access+rwc -q /home/vlsi/Desktop/hackathon/mac.v /home/vlsi/Desktop/hackathon/tb_mac.v 
+s5(11Oct2026:00:54:25):  irun -s +gui +linedebug +access+rwc -q /home/vlsi/Desktop/hackathon/tb_mac.v 
+s6(11Oct2026:00:55:03):  irun -c -q -nostdout -access +rwc -ncelabargs -partialdesign -log ./.hal-irun.log /home/vlsi/Desktop/hackathon/mac.v /home/vlsi/Desktop/hackathon/tb_mac.v 

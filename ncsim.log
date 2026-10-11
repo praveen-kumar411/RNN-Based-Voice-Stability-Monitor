@@ -1,0 +1,19 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_act_lut.x tb_act_lut.errors tb_act_lut.expected tb_act_lut.i tb_act_lut.mode tb_act_lut.vec tb_act_lut.y
+Created probe 1
+ncsim> run
+
+*** ALL 1000 VECTORS PASSED ***
+
+Simulation complete via $finish(1) at time 1 US + 0
+./tb_act_lut.v:28     $finish;
+ncsim> ...Regained control from SimVision
+-------------------------------------
+
+ncsim> 

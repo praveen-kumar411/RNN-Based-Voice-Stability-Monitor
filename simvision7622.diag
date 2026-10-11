@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Sun Oct 11 09:56:35 AM IST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s086
+User: vlsi
+Host: ic312.vit.ac.in
+Platform: Linux/x86_64/4.18.0-477.13.1.el8_8.x86_64
+Started: Sun Oct 11 09:56:35 AM IST 2026
+Command: /home/install/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ic312.vit.ac.in:56303 -64BIT -nocopyright
+Work Directory: /home/vlsi/Desktop/hackathon
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:56:35 AM IST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:56:36 AM IST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:56:37 AM IST 2026
+Connect to Simulator
+      Design: worklib.tb_top:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim(64)       15.20-s086
+        User: vlsi
+        Host: ic312.vit.ac.in
+Time Started: Sun Oct 11 09:56:34 AM IST 2026
+  Process ID: 7553
+   Directory: /home/vlsi/Desktop/hackathon
+     Command: irun -clean -access +rwc -gui mem_rw.v hstate_rf.v requant.v act_lut_syn.v gru_core.v ema.v alert.v regs.v axis_feat_buf.v icg.v rnn_vsm_top.v tb_top.v -top tb_top
+
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:56:37 AM IST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:56:48 AM IST 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:59:05 AM IST 2026
+Exit NC-Sim: user
+      Design: worklib.tb_top:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim(64)       15.20-s086
+        User: vlsi
+        Host: ic312.vit.ac.in
+Time Started: Sun Oct 11 09:56:34 AM IST 2026
+  Process ID: 7553
+   Directory: /home/vlsi/Desktop/hackathon
+     Command: irun -clean -access +rwc -gui mem_rw.v hstate_rf.v requant.v act_lut_syn.v gru_core.v ema.v alert.v regs.v axis_feat_buf.v icg.v rnn_vsm_top.v tb_top.v -top tb_top
+
+ 
+*** Message Type: error ***
+When: Sun Oct 11 09:59:05 AM IST 2026
+NC-Sim Crashed:
+      Design: worklib.tb_top:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim(64)       15.20-s086
+        User: vlsi
+        Host: ic312.vit.ac.in
+Time Started: Sun Oct 11 09:56:34 AM IST 2026
+  Process ID: 7553
+   Directory: /home/vlsi/Desktop/hackathon
+     Command: irun -clean -access +rwc -gui mem_rw.v hstate_rf.v requant.v act_lut_syn.v gru_core.v ema.v alert.v regs.v axis_feat_buf.v icg.v rnn_vsm_top.v tb_top.v -top tb_top
+      Design: worklib.tb_top:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s086
+        User: vlsi
+        Host: ic312.vit.ac.in
+Time Started: Sun Oct 11 09:56:34 AM IST 2026
+  Process ID: 7553
+   Directory: /home/vlsi/Desktop/hackathon
+     Command: irun -clean -access +rwc -gui mem_rw.v hstate_rf.v requant.v act_lut_syn.v gru_core.v ema.v alert.v regs.v axis_feat_buf.v icg.v rnn_vsm_top.v tb_top.v -top tb_top
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Sun Oct 11 09:59:08 AM IST 2026
+SimVision Exit.
+ 

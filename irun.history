@@ -1,0 +1,1 @@
+s1(11Oct2026:10:01:03):  irun -clean -access +rwc -gui mem_rw.v hstate_rf.v requant.v act_lut_syn.v gru_core.v ema.v alert.v regs.v axis_feat_buf.v icg.v rnn_vsm_top.v tb_corners.v -top tb_corners 

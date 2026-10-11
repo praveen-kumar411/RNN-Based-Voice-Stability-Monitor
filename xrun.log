@@ -1,0 +1,84 @@
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	22.09-s003: Started on Oct 11, 2026 at 10:06:57 IST
+xrun
+	-timescale 1ns/1ps
+	-vhdl_time_precision 1ps
+	-licqueue
+	-64
+	-xmlibdirpath sim_build
+	-plinowarn
+	-top rnn_vsm_top
+	-loadvpi /home/vlsi/.local/lib/python3.6/site-packages/cocotb/libs/libcocotbvpi_ius.so:vlog_startup_routines_bootstrap
+	-access +rwc
+	-createdebugdb
+	/home/vlsi/Desktop/hackathon/mem_rw.v
+	/home/vlsi/Desktop/hackathon/hstate_rf.v
+	/home/vlsi/Desktop/hackathon/requant.v
+	/home/vlsi/Desktop/hackathon/act_lut_syn.v
+	/home/vlsi/Desktop/hackathon/gru_core.v
+	/home/vlsi/Desktop/hackathon/ema.v
+	/home/vlsi/Desktop/hackathon/alert.v
+	/home/vlsi/Desktop/hackathon/regs.v
+	/home/vlsi/Desktop/hackathon/axis_feat_buf.v
+	/home/vlsi/Desktop/hackathon/icg.v
+	/home/vlsi/Desktop/hackathon/rnn_vsm_top.v
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		rnn_vsm_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alert:v <0x25fa26ee>
+			streams:   4, words:  1445
+		worklib.ema:v <0x6a469ec9>
+			streams:   6, words:  1462
+		worklib.requant:v <0x4e8234ad>
+			streams:   4, words:  1681
+		worklib.act_lut:v <0x29608eb6>
+			streams:   7, words:  7860
+		worklib.requant:v <0x453aaccd>
+			streams:   4, words:  1678
+		worklib.hstate_rf:v <0x25b1aca9>
+			streams:   7, words:  3979
+		worklib.mem_rw:v <0x650c988d>
+			streams:   4, words:  1178
+		worklib.mem_rw:v <0x6000bc0d>
+			streams:   4, words:  1196
+		worklib.gru_core:v <0x0082e68c>
+			streams:  43, words: 16024
+		worklib.icg:v <0x7b4f9e66>
+			streams:   3, words:   615
+		worklib.axis_feat_buf:v <0x19000f11>
+			streams:   6, words:  3203
+		worklib.regs:v <0x66cc15a3>
+			streams:  13, words:  6151
+		worklib.rnn_vsm_top:v <0x1058d7be>
+			streams:   4, words:  1020
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Generating Debug Data:
+		LWD Database path: (/home/vlsi/Desktop/hackathon/INCA_libs/worklib/rnn_vsm_top/v/debug_db/rnn_vsm_top)
+		Power Aware Instances:                    0
+		Liberty Instances:                        0
+		Out Of Module References:                 0
+		Assertions:                               0
+		Liberty Information:
+			PG Pins:	                  0
+			Liberty Pins:	                  0
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                14      11
+		Registers:              47      42
+		Scalar wires:           29       -
+		Vectored wires:         59       -
+		Always blocks:          20      17
+		Initial blocks:          3       2
+		Cont. assignments:      43      40
+		Pseudo assignments:      8       8
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.rnn_vsm_top:v
+Loading snapshot worklib.rnn_vsm_top:v .................... Done
+xcelium> run
+Simulation complete via $finish(1) at time 821049 NS + 0
+xcelium> exit
+TOOL:	xrun(64)	22.09-s003: Exiting on Oct 11, 2026 at 10:07:06 IST  (total: 00:00:09)

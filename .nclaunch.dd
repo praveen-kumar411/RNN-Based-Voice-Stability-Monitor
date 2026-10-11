@@ -1,0 +1,44 @@
+# DO NOT EDIT -- automatically generated design data file -- DO NOT EDIT!!!
+list \
+workdir {/home/vlsi/Desktop/hackathon} \
+cdslib {} \
+worklib {} \
+mode {1} \
+filters {*.v} \
+sesslist {{value {@image22 mem_rw.v}} /home/vlsi/Desktop/hackathon/mem_rw.v mem_rw.v 0 {} {value {@image22 act_lut_syn.v}} /home/vlsi/Desktop/hackathon/act_lut_syn.v act_lut_syn.v 0 {} {value {@image22 alert.v}} /home/vlsi/Desktop/hackathon/alert.v alert.v 0 {} {value {@image22 axis_feat_buf.v}} /home/vlsi/Desktop/hackathon/axis_feat_buf.v axis_feat_buf.v 0 {} {value {@image22 ema.v}} /home/vlsi/Desktop/hackathon/ema.v ema.v 0 {} {value {@image22 gru_core.v}} /home/vlsi/Desktop/hackathon/gru_core.v gru_core.v 0 {} {value {@image22 hstate_rf.v}} /home/vlsi/Desktop/hackathon/hstate_rf.v hstate_rf.v 0 {} {value {@image22 icg.v}} /home/vlsi/Desktop/hackathon/icg.v icg.v 0 {} {value {@image22 mac.v}} /home/vlsi/Desktop/hackathon/mac.v mac.v 0 {} {value {@image22 regs.v}} /home/vlsi/Desktop/hackathon/regs.v regs.v 0 {} {value {@image22 requant.v}} /home/vlsi/Desktop/hackathon/requant.v requant.v 0 {} {value {@image22 rnn_vsm_top.v}} /home/vlsi/Desktop/hackathon/rnn_vsm_top.v rnn_vsm_top.v 0 {} {value {@image22 tb_act_lut.v}} /home/vlsi/Desktop/hackathon/tb_act_lut.v tb_act_lut.v 0 {} {value {@image22 tb_corners.v}} /home/vlsi/Desktop/hackathon/tb_corners.v tb_corners.v 0 {} {value {@image22 tb_gru_core.v}} /home/vlsi/Desktop/hackathon/tb_gru_core.v tb_gru_core.v 0 {} {value {@image22 tb_long.v}} /home/vlsi/Desktop/hackathon/tb_long.v tb_long.v 0 {} {value {@image22 tb_mac.v}} /home/vlsi/Desktop/hackathon/tb_mac.v tb_mac.v 0 {} {value {@image22 tb_post.v}} /home/vlsi/Desktop/hackathon/tb_post.v tb_post.v 0 {} {value {@image22 tb_requant.v}} /home/vlsi/Desktop/hackathon/tb_requant.v tb_requant.v 0 {} {value {@image22 tb_storage.v}} /home/vlsi/Desktop/hackathon/tb_storage.v tb_storage.v 0 {} {value {@image22 tb_top.v}} /home/vlsi/Desktop/hackathon/tb_top.v tb_top.v 0 {}} \
+ToolOption_NCVhdl {-logfile ncvhdl.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog/AMS { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog/SV { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_irun { -gui +linedebug +access+rwc -q} \
+ToolOption_NCElab {-logfile ncelab.log -errormax 15 -status -access +wc} \
+ToolOption_NCSim {-gui -logfile ncsim.log -errormax 15 -status} \
+ToolOption_NCSdfc {-logfile ncsdfc.log -compile -status} \
+ToolOption_HAL { -logfile hal.log -cdslib /home/vlsi/Desktop/hackathon/cds.lib} \
+ToolOption_SimVision {} \
+ToolOption_Update {-errormax 15 -force} \
+ToolOption_SimCompare {} \
+ToolOption_NCBrowse {} \
+ToolOption_HALDefEdit {} \
+ToolOption_NCShell {-view shell -logfile ncshell.log -errormax 15 -suffix .v} \
+ToolOption_NCProtect {-logfile ncprotect.log} \
+ToolOption_NCDC {-logfile ncdc.log -messages -status} \
+ToolOption_DBUtil {} \
+ToolOption_NCVhdl {-logfile ncvhdl.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog/AMS { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_NCVlog/SV { -work worklib -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status} \
+ToolOption_irun { -gui +linedebug +access+rwc -q} \
+ToolOption_NCElab {-logfile ncelab.log -errormax 15 -status -access +wc} \
+ToolOption_NCSim {-gui -logfile ncsim.log -errormax 15 -status} \
+ToolOption_NCSdfc {-logfile ncsdfc.log -compile -status} \
+ToolOption_HAL { -logfile hal.log -cdslib /home/vlsi/Desktop/hackathon/cds.lib} \
+ToolOption_SimVision {} \
+ToolOption_Update {-errormax 15 -force} \
+ToolOption_SimCompare {} \
+ToolOption_NCBrowse {} \
+ToolOption_HALDefEdit {} \
+ToolOption_NCShell {-view shell -logfile ncshell.log -errormax 15 -suffix .v} \
+ToolOption_NCProtect {-logfile ncprotect.log} \
+ToolOption_NCDC {-logfile ncdc.log -messages -status} \
+ToolOption_DBUtil {} \

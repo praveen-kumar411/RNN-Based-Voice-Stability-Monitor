@@ -1,0 +1,17 @@
+hal(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+hal: Options:   -cdslib /home/vlsi/Desktop/hackathon/cds.lib -logfile hal.log /home/vlsi/Desktop/hackathon/mac.v /home/vlsi/Desktop/hackathon/tb_mac.v.
+hal: Workspace: /home/vlsi/Desktop/hackathon.
+hal: Date: Sun Oct 11 00:54:57 IST 2026.
+
+hal: Running on design source files.....
+hal: Snapshot:  worklib.tb_mac:v.
+
+  ==========================================================================
+Compiling design 
+
+
+irun: *W,WKWTLK: Waiting for a Exclusive lock on file '/home/vlsi/Desktop/hackathon/INCA_libs/irun.lnx8664.15.20.nc/.ncrun.lock'. pid:17554.
+	Top level design units:
+		tb_mac
+
+  ==========================================================================

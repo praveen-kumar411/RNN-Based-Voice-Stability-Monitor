@@ -1,0 +1,146 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Oct 11, 2026 at 10:01:03 IST
+irun
+	-clean
+	-access +rwc
+	-gui
+	mem_rw.v
+	hstate_rf.v
+	requant.v
+	act_lut_syn.v
+	gru_core.v
+	ema.v
+	alert.v
+	regs.v
+	axis_feat_buf.v
+	icg.v
+	rnn_vsm_top.v
+	tb_corners.v
+	-top tb_corners
+irun: *N,CLEAN: Removing existing directory ./INCA_libs.
+define worklib /home/vlsi/Desktop/hackathon/INCA_libs/worklib
+|
+irun: *W,DLCPTH (./cds.lib,1): cds.lib Invalid path '/home/vlsi/Desktop/hackathon/INCA_libs/worklib' (cds.lib command ignored).
+define worklib /home/vlsi/Desktop/hackathon/INCA_libs/worklib
+|
+irun: *W,DLCPTH (./cds.lib,1): cds.lib Invalid path '/home/vlsi/Desktop/hackathon/INCA_libs/worklib' (cds.lib command ignored).
+define worklib /home/vlsi/Desktop/hackathon/INCA_libs/worklib
+|
+irun: *W,DLCPTH (./cds.lib,1): cds.lib Invalid path '/home/vlsi/Desktop/hackathon/INCA_libs/worklib' (cds.lib command ignored).
+define worklib /home/vlsi/Desktop/hackathon/INCA_libs/worklib
+|
+irun: *W,DLCPTH (./cds.lib,1): cds.lib Invalid path '/home/vlsi/Desktop/hackathon/INCA_libs/worklib' (cds.lib command ignored).
+file: mem_rw.v
+	module worklib.mem_rw:v
+		errors: 0, warnings: 0
+file: hstate_rf.v
+	module worklib.hstate_rf:v
+		errors: 0, warnings: 0
+file: requant.v
+	module worklib.requant:v
+		errors: 0, warnings: 0
+file: act_lut_syn.v
+	module worklib.act_lut:v
+		errors: 0, warnings: 0
+file: gru_core.v
+	module worklib.gru_core:v
+		errors: 0, warnings: 0
+file: ema.v
+	module worklib.ema:v
+		errors: 0, warnings: 0
+file: alert.v
+	module worklib.alert:v
+		errors: 0, warnings: 0
+file: regs.v
+	module worklib.regs:v
+		errors: 0, warnings: 0
+file: axis_feat_buf.v
+	module worklib.axis_feat_buf:v
+		errors: 0, warnings: 0
+file: icg.v
+	module worklib.icg:v
+		errors: 0, warnings: 0
+file: rnn_vsm_top.v
+	module worklib.rnn_vsm_top:v
+		errors: 0, warnings: 0
+file: tb_corners.v
+	module worklib.tb_corners:v
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		tb_corners
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.act_lut:v <0x6d4ea285>
+			streams:   7, words:  6158
+		worklib.alert:v <0x671b887d>
+			streams:   4, words:  1429
+		worklib.axis_feat_buf:v <0x7aa04a57>
+			streams:   6, words:  3190
+		worklib.ema:v <0x09932bd3>
+			streams:   6, words:  1458
+		worklib.gru_core:v <0x3f2d0fa2>
+			streams:  44, words: 16187
+		worklib.hstate_rf:v <0x73c3c3b1>
+			streams:   6, words:  8172
+		worklib.icg:v <0x1e635b3c>
+			streams:   3, words:   775
+		worklib.mem_rw:v <0x2e2a1a10>
+			streams:   4, words:  1534
+		worklib.mem_rw:v <0x3fcd4491>
+			streams:   4, words:  1467
+		worklib.regs:v <0x3e0b5bc3>
+			streams:  13, words:  6011
+		worklib.requant:v <0x2e1fde81>
+			streams:   4, words:  1627
+		worklib.requant:v <0x7d748cd1>
+			streams:   4, words:  1630
+		worklib.rnn_vsm_top:v <0x14d77cd2>
+			streams:   3, words:   680
+		worklib.tb_corners:v <0x61db643f>
+			streams:  26, words: 33856
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                15      12
+		Registers:              78      73
+		Scalar wires:           29       -
+		Vectored wires:         59       -
+		Always blocks:          21      18
+		Initial blocks:         14      13
+		Cont. assignments:      42      40
+		Pseudo assignments:     17      17
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_corners:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_corners.clk tb_corners.rst tb_corners.s_tvalid tb_corners.s_tready tb_corners.dut.busy tb_corners.dut.done tb_corners.dut.frame_cnt tb_corners.dut.avg tb_corners.dut.u_core.state tb_corners.dut.u_regs.en tb_corners.dut.u_core.u_h.bank_sel
+Created probe 1
+ncsim> run
+
+[T1] frames 0-19 (saturated at 5, 6)
+
+[T2] reset mid-call (during frame 20)
+  ok   BUSY before reset = 1
+  ok   STATUS after reset = 0
+  ok   CTRL after reset = 0
+  ok   FRAME_CNT after reset = 0
+  ok   TREADY while disabled = 0
+
+[T3] flush mid-call (between frames 40 and 41)
+  ok   FRAME_CNT after flush = 0
+  ok   FRAME_CNT at end = 20
+
+IRQs serviced: 1
+*** CORNER CASES: ALL PASSED (reset kept weights, flush cleared state) ***
+
+Simulation complete via $finish(1) at time 826264 NS + 0
+./tb_corners.v:137     $finish;
+ncsim> TOOL:	irun(64)	15.20-s086: Exiting on Oct 11, 2026 at 10:04:23 IST  (total: 00:03:20)

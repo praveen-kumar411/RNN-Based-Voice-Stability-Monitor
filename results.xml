@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1791693422" />
+    <testcase classname="test_rnn_vsm" file="/home/vlsi/Desktop/hackathon/test_rnn_vsm.py" lineno="76" name="test_bit_exact_stream" ratio_time="244151.62334224916" sim_time_ns="821049.0" time="3.3628652095794678" />
+  </testsuite>
+</testsuites>
